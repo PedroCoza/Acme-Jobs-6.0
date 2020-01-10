@@ -1,0 +1,16 @@
+sponsor.commercial.list.label.banner = Banner
+sponsor.commercial.list.label.slogan = Slogan
+sponsor.commercial.list.label.url = Url
+
+sponsor.commercial.form.label.banner = Banner
+sponsor.commercial.form.label.slogan = Slogan
+sponsor.commercial.form.label.url = Url
+
+sponsor.commercial.form.button.card = Credit Card
+
+sponsor.commercial.form.button.update = Update
+sponsor.commercial.form.button.delete = Delete
+sponsor.commercial.form.button.create = Create
+acme.validation.card = Please, add a Credit Card to your account
+
+sponsor.commercial.form.button.return= Return

@@ -1,0 +1,32 @@
+authenticated.message-thread.list.label.title = Title
+authenticated.message-thread.list.label.creationMoment = Creation Moment
+authenticated.message-thread.list.label.users = Users
+
+authenticated.message-thread.form.label.title = Title
+authenticated.message-thread.form.label.creationMoment = Creation Moment
+
+authenticated.message-thread.messages = <h4>Messages:</h4>
+authenticated.message.title = Title:
+authenticated.message.creationMoment = Creation Moment:
+authenticated.message.tags = Tags:
+authenticated.message.body = Body:
+
+authenticated.message-thread.list.button.messages = Messages
+authenticated.message-thread.list.button.users = Users
+
+authenticated.message-thread.list.button.message-create= Create Message
+authenticated.user-account.form.button.update = Update
+authenticated.message-thread.form.button.create = Create
+authenticated.message-thread.form.button.return = Return
+
+authenticated.message-thread.add = <h4>Add User</h4>
+authenticated.message-thread.delete = <h4>Delete User</h4>
+
+authenticated.message-thread.form.label.user.username = Username
+authenticated.message-thread.newUsername = UserName
+authenticated.message-thread.delUsername = UserName
+authenticated.message-thread.exist = The user already exist in the thread
+authenticated.message-thread.no-exist = The user doesn´t exist in the thread
+authenticated.message-thread.no-user = The user doesn´t exist
+authenticated.message-thread.same = You have write the same user
+authenticated.message-thread.administrator-delete = The administrator can´t be deleted
