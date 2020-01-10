@@ -31,14 +31,6 @@
 			<acme:menu-separator />
 			<acme:menu-suboption code="master.menu.anonymous.investor-record.topinvestorrecords" action="/anonymous/investor-record/toplist" />
 		</acme:menu-option>
-
-		<acme:menu-option code="master.menu.banners" access="hasRole('Administrator')">
-			<acme:menu-suboption code="master.menu.administrator.list-non-commercial" action="/administrator/non-commercial/list" />
-			<acme:menu-suboption code="master.menu.administrator.create-non-commercial" action="/administrator/non-commercial/create" />
-			<acme:menu-separator />
-			<acme:menu-suboption code="master.menu.administrator.list-commercial" action="/administrator/commercial/list" />
-			<acme:menu-suboption code="master.menu.administrator.create-commercial" action="/administrator/commercial/create" />
-		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list" />
