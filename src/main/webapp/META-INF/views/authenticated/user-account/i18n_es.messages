@@ -21,7 +21,7 @@ authenticated.user-account.form.label.name = Nombre:
 authenticated.user-account.form.label.surname = Apellidos:
 authenticated.user-account.form.label.email = E-mail:
 authenticated.user-account.form.label.phone = Teléfono:
-authenticated.user-account.form.label.phoneinst = El código de área local (nnnn) no es obligatorio, introducir sólo en caso de que sea necesario.
+authenticated.user-account.form.label.phoneinst = No es obligatorio añadir un teléfono. El código de área local (AC) no es obligatorio, introducir sólo en caso de que sea necesario.
  
 authenticated.user-account.form.button.update = Actualizar
 authenticated.user-account.form.button.return = Volver

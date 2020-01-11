@@ -17,7 +17,7 @@ anonymous.user-account.label.name = Name:
 anonymous.user-account.label.surname = Surname:
 anonymous.user-account.label.email = Email:
 anonymous.user-account.label.phone = Phone:
-anonymous.user-account.label.phoneinst = Local area code (nnnn) is optional, introduce only if necessary.
+anonymous.user-account.label.phoneinst = Phone is not required. Local area code (AC) is optional, introduce only if necessary.
 anonymous.user-account.label.accept = I do accept the license
 
 anonymous.user-account.button.create = Sign up
