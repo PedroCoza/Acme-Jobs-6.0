@@ -105,6 +105,20 @@
 		<property name="spamword" value="millón de dolares" />
 		<property name = "spamlist"><ref bean = "spamEs" /></property>
 	</bean>
+	
+	<!-- Phone -->
+	
+	<bean id="phone1" class="acme.datatypes.Phone">
+		<property name="countryCode" value="34" />
+		<property name="areaCode" value="555" />
+		<property name="number" value="666777888" />
+	</bean>
+	
+	<bean id="phone2" class="acme.datatypes.Phone">
+		<property name="countryCode" value="69" />
+		<property name="areaCode" value="222" />
+		<property name="number" value="667788999" />
+	</bean>
 
 	<!-- User Only Authenticated -->
 	
