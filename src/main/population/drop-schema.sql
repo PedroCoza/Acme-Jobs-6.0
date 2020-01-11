@@ -43,10 +43,6 @@
        drop 
        foreign key `FK2jw28sba4n2gi3xdkdqqhm870`;
 
-    alter table `consumer` 
-       drop 
-       foreign key FK_6cyha9f1wpj0dpbxrrjddrqed;
-
     alter table `credit_card` 
        drop 
        foreign key `FK31l5hvh7p1nx1aw6v649gw3rc`;
@@ -126,8 +122,6 @@
     drop table if exists `commercial`;
 
     drop table if exists `company_records`;
-
-    drop table if exists `consumer`;
 
     drop table if exists `credit_card`;
 

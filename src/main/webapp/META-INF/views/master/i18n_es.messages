@@ -70,12 +70,6 @@ master.menu.provider = Proveedor
 master.menu.provider.favourite-link = Enlace favorito
 master.menu.provider.create-request = Crear petición
 
-# master.menu.consumer ##########################################################
-
-master.menu.consumer = Consumidor
-master.menu.consumer.favourite-link = Enlace favorito
-master.menu.consumer.create-offer = Crear ofertas
-
 # master.menu.employer ####################################################
 
 master.menu.employer = Empleador
