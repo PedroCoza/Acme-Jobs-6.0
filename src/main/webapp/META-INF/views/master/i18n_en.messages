@@ -63,13 +63,6 @@ master.menu.administrator.createinvestorrecord = Create Investor Record
 master.menu.administrator.spamlist = Customisation Parameters
 master.menu.administrator.auditor = Pending auditors
 
-
-# master.menu.provider ########################################################
-
-master.menu.provider = Provider
-master.menu.provider.favourite-link = Favourite link
-master.menu.provider.create-request = Create request
-
 # master.menu.consumer ##########################################################
 
 master.menu.consumer = Consumer

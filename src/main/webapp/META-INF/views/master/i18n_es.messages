@@ -63,13 +63,6 @@ master.menu.administrator.spamlist = Parámetros de Customización
 master.menu.administrator.auditor = Auditores por confirmar
 
 
-
-# master.menu.provider ########################################################
-
-master.menu.provider = Proveedor
-master.menu.provider.favourite-link = Enlace favorito
-master.menu.provider.create-request = Crear petición
-
 # master.menu.consumer ##########################################################
 
 master.menu.consumer = Consumidor
