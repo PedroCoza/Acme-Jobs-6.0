@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 import acme.entities.spamlist.Spamlist;
-import acme.entities.spamlist.Spamword;
+import acme.entities.spamword.Spamword;
 import acme.framework.repositories.AbstractRepository;
 
 @Repository

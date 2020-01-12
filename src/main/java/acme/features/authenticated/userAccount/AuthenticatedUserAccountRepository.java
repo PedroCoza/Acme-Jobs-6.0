@@ -17,7 +17,7 @@ import java.util.Collection;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import acme.entities.messageThread.MessageThreadAuthenticated;
+import acme.entities.messageThreadAuthenticated.MessageThreadAuthenticated;
 import acme.framework.entities.UserAccount;
 import acme.framework.repositories.AbstractRepository;
 

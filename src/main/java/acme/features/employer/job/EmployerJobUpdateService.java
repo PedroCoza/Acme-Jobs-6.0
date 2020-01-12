@@ -11,7 +11,7 @@ import acme.entities.duty.Duty;
 import acme.entities.job.Job;
 import acme.entities.roles.Employer;
 import acme.entities.spamlist.Spamlist;
-import acme.entities.spamlist.Spamword;
+import acme.entities.spamword.Spamword;
 import acme.framework.components.Errors;
 import acme.framework.components.Model;
 import acme.framework.components.Request;

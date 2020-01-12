@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import acme.entities.commercial.Commercial;
 import acme.entities.roles.Sponsor;
 import acme.entities.spamlist.Spamlist;
-import acme.entities.spamlist.Spamword;
+import acme.entities.spamword.Spamword;
 import acme.framework.components.Errors;
 import acme.framework.components.HttpMethod;
 import acme.framework.components.Model;

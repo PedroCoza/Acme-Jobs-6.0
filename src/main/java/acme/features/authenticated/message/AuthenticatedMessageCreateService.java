@@ -9,9 +9,9 @@ import org.springframework.stereotype.Service;
 
 import acme.entities.message.Message;
 import acme.entities.messageThread.MessageThread;
-import acme.entities.messageThread.MessageThreadAuthenticated;
+import acme.entities.messageThreadAuthenticated.MessageThreadAuthenticated;
 import acme.entities.spamlist.Spamlist;
-import acme.entities.spamlist.Spamword;
+import acme.entities.spamword.Spamword;
 import acme.framework.components.Errors;
 import acme.framework.components.Model;
 import acme.framework.components.Request;

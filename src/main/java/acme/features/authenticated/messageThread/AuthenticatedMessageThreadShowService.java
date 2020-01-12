@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 import acme.entities.message.Message;
 import acme.entities.messageThread.MessageThread;
-import acme.entities.messageThread.MessageThreadAuthenticated;
+import acme.entities.messageThreadAuthenticated.MessageThreadAuthenticated;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
 import acme.framework.entities.Authenticated;

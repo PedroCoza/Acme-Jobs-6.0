@@ -27,31 +27,31 @@
 	</bean>
 	
 	<!-- EN Spamwords -->
-	<bean id="string01" class="acme.entities.spamlist.Spamword">
+	<bean id="string01" class="acme.entities.spamword.Spamword">
 		<property name="spamword" value="sex" />
 		<property name = "spamlist"><ref bean = "spamEn" /></property>
 	</bean>
-	<bean id="string02" class="acme.entities.spamlist.Spamword">
+	<bean id="string02" class="acme.entities.spamword.Spamword">
 		<property name="spamword" value="hard core" />
 		<property name = "spamlist"><ref bean = "spamEn" /></property>
 	</bean>
-	<bean id="string03" class="acme.entities.spamlist.Spamword">
+	<bean id="string03" class="acme.entities.spamword.Spamword">
 		<property name="spamword" value="viagra" />
 		<property name = "spamlist"><ref bean = "spamEn" /></property>
 	</bean>
-	<bean id="string04" class="acme.entities.spamlist.Spamword">
+	<bean id="string04" class="acme.entities.spamword.Spamword">
 		<property name="spamword" value="cialis" />
 		<property name = "spamlist"><ref bean = "spamEn" /></property>
 	</bean>
-	<bean id="string05" class="acme.entities.spamlist.Spamword">
+	<bean id="string05" class="acme.entities.spamword.Spamword">
 		<property name="spamword" value="nigeria" />
 		<property name = "spamlist"><ref bean = "spamEn" /></property>
 	</bean>
-	<bean id="string06" class="acme.entities.spamlist.Spamword">
+	<bean id="string06" class="acme.entities.spamword.Spamword">
 		<property name="spamword" value="you´ve won" />
 		<property name = "spamlist"><ref bean = "spamEn" /></property>
 	</bean>
-	<bean id="string07" class="acme.entities.spamlist.Spamword">
+	<bean id="string07" class="acme.entities.spamword.Spamword">
 		<property name="spamword" value="million dollar" />
 		<property name = "spamlist"><ref bean = "spamEn" /></property>
 	</bean>
@@ -73,31 +73,31 @@
 	</bean>
 	
 	<!-- ES Spamwords -->
-	<bean id="string08" class="acme.entities.spamlist.Spamword">
+	<bean id="string08" class="acme.entities.spamword.Spamword">
 		<property name="spamword" value="sexo" />
 		<property name = "spamlist"><ref bean = "spamEs" /></property>
 	</bean>
-	<bean id="string09" class="acme.entities.spamlist.Spamword">
+	<bean id="string09" class="acme.entities.spamword.Spamword">
 		<property name="spamword" value="explicito" />
 		<property name = "spamlist"><ref bean = "spamEs" /></property>
 	</bean>
-	<bean id="string10" class="acme.entities.spamlist.Spamword">
+	<bean id="string10" class="acme.entities.spamword.Spamword">
 		<property name="spamword" value="viagra" />
 		<property name = "spamlist"><ref bean = "spamEs" /></property>
 	</bean>
-	<bean id="string11" class="acme.entities.spamlist.Spamword">
+	<bean id="string11" class="acme.entities.spamword.Spamword">
 		<property name="spamword" value="cialis" />
 		<property name = "spamlist"><ref bean = "spamEs" /></property>
 	</bean>
-	<bean id="string12" class="acme.entities.spamlist.Spamword">
+	<bean id="string12" class="acme.entities.spamword.Spamword">
 		<property name="spamword" value="nigeria" />
 		<property name = "spamlist"><ref bean = "spamEs" /></property>
 	</bean>
-	<bean id="string13" class="acme.entities.spamlist.Spamword">
+	<bean id="string13" class="acme.entities.spamword.Spamword">
 		<property name="spamword" value="has ganado" />
 		<property name = "spamlist"><ref bean = "spamEs" /></property>
 	</bean>
-	<bean id="string14" class="acme.entities.spamlist.Spamword">
+	<bean id="string14" class="acme.entities.spamword.Spamword">
 		<property name="spamword" value="millón de dolares" />
 		<property name = "spamlist"><ref bean = "spamEs" /></property>
 	</bean>
@@ -251,142 +251,142 @@
 	</bean>
 
 	<!-- MessageThreadAuthenticated -->
-	<bean name="msga1" class = "acme.entities.messageThread.MessageThreadAuthenticated">
+	<bean name="msga1" class = "acme.entities.messageThreadAuthenticated.MessageThreadAuthenticated">
 		<property name="thread" ref="msgThread1"/>
 		<property name="user" ref="employer1UserAccount"/>
 	</bean>
 	
-	<bean name="msga2" class = "acme.entities.messageThread.MessageThreadAuthenticated">
+	<bean name="msga2" class = "acme.entities.messageThreadAuthenticated.MessageThreadAuthenticated">
 		<property name="thread" ref="msgThread1"/>
 		<property name="user" ref="employer2UserAccount"/>
 	</bean>
 	
-	<bean name="msga3" class = "acme.entities.messageThread.MessageThreadAuthenticated">
+	<bean name="msga3" class = "acme.entities.messageThreadAuthenticated.MessageThreadAuthenticated">
 		<property name="thread" ref="msgThread1"/>
 		<property name="user" ref="employer3UserAccount"/>
 	</bean>
 	
-	<bean name="msga4" class = "acme.entities.messageThread.MessageThreadAuthenticated">
+	<bean name="msga4" class = "acme.entities.messageThreadAuthenticated.MessageThreadAuthenticated">
 		<property name="thread" ref="msgThread1"/>
 		<property name="user" ref="worker1UserAccount"/>
 	</bean>
 	
-	<bean name="msga5" class = "acme.entities.messageThread.MessageThreadAuthenticated">
+	<bean name="msga5" class = "acme.entities.messageThreadAuthenticated.MessageThreadAuthenticated">
 		<property name="thread" ref="msgThread1"/>
 		<property name="user" ref="worker2UserAccount"/>
 	</bean>
 	
-	<bean name="msga6" class = "acme.entities.messageThread.MessageThreadAuthenticated">
+	<bean name="msga6" class = "acme.entities.messageThreadAuthenticated.MessageThreadAuthenticated">
 		<property name="thread" ref="msgThread1"/>
 		<property name="user" ref="worker3UserAccount"/>
 	</bean>
 	
-	<bean name="msga7" class = "acme.entities.messageThread.MessageThreadAuthenticated">
+	<bean name="msga7" class = "acme.entities.messageThreadAuthenticated.MessageThreadAuthenticated">
 		<property name="thread" ref="msgThread2"/>
 		<property name="user" ref="employer1UserAccount"/>
 	</bean>
 	
-	<bean name="msga8" class = "acme.entities.messageThread.MessageThreadAuthenticated">
+	<bean name="msga8" class = "acme.entities.messageThreadAuthenticated.MessageThreadAuthenticated">
 		<property name="thread" ref="msgThread2"/>
 		<property name="user" ref="employer2UserAccount"/>
 	</bean>
 	
-	<bean name="msga9" class = "acme.entities.messageThread.MessageThreadAuthenticated">
+	<bean name="msga9" class = "acme.entities.messageThreadAuthenticated.MessageThreadAuthenticated">
 		<property name="thread" ref="msgThread2"/>
 		<property name="user" ref="employer3UserAccount"/>
 	</bean>
 	
-	<bean name="msga10" class = "acme.entities.messageThread.MessageThreadAuthenticated">
+	<bean name="msga10" class = "acme.entities.messageThreadAuthenticated.MessageThreadAuthenticated">
 		<property name="thread" ref="msgThread2"/>
 		<property name="user" ref="worker1UserAccount"/>
 	</bean>
 	
-	<bean name="msga11" class = "acme.entities.messageThread.MessageThreadAuthenticated">
+	<bean name="msga11" class = "acme.entities.messageThreadAuthenticated.MessageThreadAuthenticated">
 		<property name="thread" ref="msgThread2"/>
 		<property name="user" ref="worker2UserAccount"/>
 	</bean>
 	
-	<bean name="msga12" class = "acme.entities.messageThread.MessageThreadAuthenticated">
+	<bean name="msga12" class = "acme.entities.messageThreadAuthenticated.MessageThreadAuthenticated">
 		<property name="thread" ref="msgThread2"/>
 		<property name="user" ref="worker3UserAccount"/>
 	</bean>
 	
-	<bean name="msga13" class = "acme.entities.messageThread.MessageThreadAuthenticated">
+	<bean name="msga13" class = "acme.entities.messageThreadAuthenticated.MessageThreadAuthenticated">
 		<property name="thread" ref="msgThread3"/>
 		<property name="user" ref="employer1UserAccount"/>
 	</bean>
 	
-	<bean name="msga14" class = "acme.entities.messageThread.MessageThreadAuthenticated">
+	<bean name="msga14" class = "acme.entities.messageThreadAuthenticated.MessageThreadAuthenticated">
 		<property name="thread" ref="msgThread3"/>
 		<property name="user" ref="employer2UserAccount"/>
 	</bean>
 	
-	<bean name="msga15" class = "acme.entities.messageThread.MessageThreadAuthenticated">
+	<bean name="msga15" class = "acme.entities.messageThreadAuthenticated.MessageThreadAuthenticated">
 		<property name="thread" ref="msgThread3"/>
 		<property name="user" ref="worker1UserAccount"/>
 	</bean>
 	
-	<bean name="msga16" class = "acme.entities.messageThread.MessageThreadAuthenticated">
+	<bean name="msga16" class = "acme.entities.messageThreadAuthenticated.MessageThreadAuthenticated">
 		<property name="thread" ref="msgThread3"/>
 		<property name="user" ref="worker2UserAccount"/>
 	</bean>
 	
-	<bean name="msga17" class = "acme.entities.messageThread.MessageThreadAuthenticated">
+	<bean name="msga17" class = "acme.entities.messageThreadAuthenticated.MessageThreadAuthenticated">
 		<property name="thread" ref="msgThread3"/>
 		<property name="user" ref="worker3UserAccount"/>
 	</bean>
 	
-	<bean name="msga18" class = "acme.entities.messageThread.MessageThreadAuthenticated">
+	<bean name="msga18" class = "acme.entities.messageThreadAuthenticated.MessageThreadAuthenticated">
 		<property name="thread" ref="msgThread4"/>
 		<property name="user" ref="employer2UserAccount"/>
 	</bean>
 	
-	<bean name="msga19" class = "acme.entities.messageThread.MessageThreadAuthenticated">
+	<bean name="msga19" class = "acme.entities.messageThreadAuthenticated.MessageThreadAuthenticated">
 		<property name="thread" ref="msgThread4"/>
 		<property name="user" ref="employer3UserAccount"/>
 	</bean>
 	
-	<bean name="msga20" class = "acme.entities.messageThread.MessageThreadAuthenticated">
+	<bean name="msga20" class = "acme.entities.messageThreadAuthenticated.MessageThreadAuthenticated">
 		<property name="thread" ref="msgThread4"/>
 		<property name="user" ref="worker1UserAccount"/>
 	</bean>
 	
-	<bean name="msga21" class = "acme.entities.messageThread.MessageThreadAuthenticated">
+	<bean name="msga21" class = "acme.entities.messageThreadAuthenticated.MessageThreadAuthenticated">
 		<property name="thread" ref="msgThread4"/>
 		<property name="user" ref="worker2UserAccount"/>
 	</bean>
 	
-	<bean name="msga22" class = "acme.entities.messageThread.MessageThreadAuthenticated">
+	<bean name="msga22" class = "acme.entities.messageThreadAuthenticated.MessageThreadAuthenticated">
 		<property name="thread" ref="msgThread4"/>
 		<property name="user" ref="worker3UserAccount"/>
 	</bean>
 	
-	<bean name="msga23" class = "acme.entities.messageThread.MessageThreadAuthenticated">
+	<bean name="msga23" class = "acme.entities.messageThreadAuthenticated.MessageThreadAuthenticated">
 		<property name="thread" ref="msgThread5"/>
 		<property name="user" ref="employer1UserAccount"/>
 	</bean>
 	
-	<bean name="msga24" class = "acme.entities.messageThread.MessageThreadAuthenticated">
+	<bean name="msga24" class = "acme.entities.messageThreadAuthenticated.MessageThreadAuthenticated">
 		<property name="thread" ref="msgThread5"/>
 		<property name="user" ref="employer2UserAccount"/>
 	</bean>
 	
-	<bean name="msga25" class = "acme.entities.messageThread.MessageThreadAuthenticated">
+	<bean name="msga25" class = "acme.entities.messageThreadAuthenticated.MessageThreadAuthenticated">
 		<property name="thread" ref="msgThread5"/>
 		<property name="user" ref="employer3UserAccount"/>
 	</bean>
 	
-	<bean name="msga26" class = "acme.entities.messageThread.MessageThreadAuthenticated">
+	<bean name="msga26" class = "acme.entities.messageThreadAuthenticated.MessageThreadAuthenticated">
 		<property name="thread" ref="msgThread5"/>
 		<property name="user" ref="worker1UserAccount"/>
 	</bean>
 	
-	<bean name="msga27" class = "acme.entities.messageThread.MessageThreadAuthenticated">
+	<bean name="msga27" class = "acme.entities.messageThreadAuthenticated.MessageThreadAuthenticated">
 		<property name="thread" ref="msgThread5"/>
 		<property name="user" ref="worker2UserAccount"/>
 	</bean>
 	
-	<bean name="msga28" class = "acme.entities.messageThread.MessageThreadAuthenticated">
+	<bean name="msga28" class = "acme.entities.messageThreadAuthenticated.MessageThreadAuthenticated">
 		<property name="thread" ref="msgThread5"/>
 		<property name="user" ref="worker3UserAccount"/>
 	</bean>

@@ -1,10 +1,11 @@
 
-package acme.entities.messageThread;
+package acme.entities.messageThreadAuthenticated;
 
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
 import javax.validation.Valid;
 
+import acme.entities.messageThread.MessageThread;
 import acme.framework.entities.DomainEntity;
 import acme.framework.entities.UserAccount;
 import lombok.Getter;

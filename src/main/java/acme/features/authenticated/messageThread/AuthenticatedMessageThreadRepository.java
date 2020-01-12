@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 
 import acme.entities.message.Message;
 import acme.entities.messageThread.MessageThread;
-import acme.entities.messageThread.MessageThreadAuthenticated;
+import acme.entities.messageThreadAuthenticated.MessageThreadAuthenticated;
 import acme.framework.entities.Authenticated;
 import acme.framework.entities.UserAccount;
 import acme.framework.repositories.AbstractRepository;

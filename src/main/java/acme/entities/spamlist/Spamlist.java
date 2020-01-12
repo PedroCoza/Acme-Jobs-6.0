@@ -11,6 +11,7 @@ import javax.validation.Valid;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
+import acme.entities.spamword.Spamword;
 import acme.framework.entities.DomainEntity;
 import lombok.Getter;
 import lombok.Setter;

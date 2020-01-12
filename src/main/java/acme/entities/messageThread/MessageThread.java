@@ -14,6 +14,7 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
 import acme.entities.message.Message;
+import acme.entities.messageThreadAuthenticated.MessageThreadAuthenticated;
 import acme.framework.entities.DomainEntity;
 import acme.framework.entities.UserAccount;
 import lombok.Getter;
