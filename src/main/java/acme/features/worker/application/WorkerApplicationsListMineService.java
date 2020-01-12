@@ -1,5 +1,5 @@
 
-package acme.features.authenticated.application;
+package acme.features.worker.application;
 
 import java.util.Collection;
 

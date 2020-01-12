@@ -1,5 +1,5 @@
 
-package acme.features.worker;
+package acme.features.authenticated.worker;
 
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Service;

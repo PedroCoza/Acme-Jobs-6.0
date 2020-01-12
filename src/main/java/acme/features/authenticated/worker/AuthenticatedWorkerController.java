@@ -1,5 +1,5 @@
 
-package acme.features.worker;
+package acme.features.authenticated.worker;
 
 import javax.annotation.PostConstruct;
 
