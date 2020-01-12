@@ -1600,21 +1600,21 @@
 
 	<!-- Non Commercial Banners -->
 	<bean id="banner01" class="acme.entities.nonCommercial.NonCommercial">
-		<property name="banner" value="https://benllyhidalgo.com/wp-content/uploads/slogan-creativos-historia.jpg" />
+		<property name="banner" value="https://i.imgur.com/8YcXhS0.png" />
 		<property name="slogan" value="Life is about small things." />
 		<property name="url" value="https://www.pinterest.com" />
 		<property name="sponsor" ref="sponsor1Sponsor"/>
 	</bean>
 
 	<bean id="banner02" class="acme.entities.nonCommercial.NonCommercial">
-		<property name="banner" value="https://www.marketingsgm.es/wp-content/uploads/slogan-impossible-is-nothing-1.jpg" />
+		<property name="banner" value="https://i.imgur.com/NGLSjk6.png" />
 		<property name="slogan" value="Never too late boys." />
 		<property name="url" value="https://www.google.es" />
 		<property name="sponsor" ref="sponsor2Sponsor"/>
  	</bean>
 
 	<bean id="banner03" class="acme.entities.nonCommercial.NonCommercial">
-		<property name="banner" value="https://i.pinimg.com/474x/0d/02/9d/0d029d10452ecea33f9409e91c1ea64a.jpg" />
+		<property name="banner" value="https://i.imgur.com/2eVF1HG.png" />
 		<property name="slogan" value="Life is about small things." />
 		<property name="url" value="https://www.pinterest.com" />
 		<property name="jingle" value="https://www.youtube.com/watch?v=VfLf7A_-1Vw" />
@@ -1665,7 +1665,7 @@
 	<!-- Commercial Banners -->
 
 	<bean id="banner04" class="acme.entities.commercial.Commercial">
-		<property name="banner" value="https://files.merca20.com/uploads/2014/02/nike.png" />
+		<property name="banner" value="https://i.imgur.com/fihihcF.png" />
 		<property name="slogan" value="Life is about small things." />
 		<property name="url" value="https://www.pinterest.com" />
 		<property name="card" ref="card01"/>	
@@ -1673,7 +1673,7 @@
 	</bean>
 
 	<bean id="banner05" class="acme.entities.commercial.Commercial">
-		<property name="banner" value="https://librezas.files.wordpress.com/2018/04/logo-paulaner-e1523802584802.jpg?w=1100" />
+		<property name="banner" value="https://i.imgur.com/MtBRoNP.png" />
 		<property name="slogan" value="Life is about small things." />
 		<property name="url" value="https://www.pinterest.com" />
 		<property name="card" ref="card02"/>	
