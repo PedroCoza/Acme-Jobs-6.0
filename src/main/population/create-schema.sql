@@ -75,7 +75,7 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `banners` (
+    create table `banner` (
        `id` integer not null,
         `version` integer not null,
         `banner` varchar(255),
@@ -224,9 +224,9 @@
        `id` integer not null,
         `version` integer not null,
         `banner` varchar(255),
-        `jingle` varchar(255),
         `slogan` varchar(255),
         `url` varchar(255),
+        `jingle` varchar(255),
         `sponsor_id` integer not null,
         primary key (`id`)
     ) engine=InnoDB;
