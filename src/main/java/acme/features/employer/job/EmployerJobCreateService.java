@@ -15,6 +15,7 @@ import acme.framework.components.Errors;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
 import acme.framework.entities.Principal;
+import acme.framework.entities.UserAccount;
 import acme.framework.services.AbstractCreateService;
 
 @Service
@@ -27,7 +28,14 @@ public class EmployerJobCreateService implements AbstractCreateService<Employer,
 	@Override
 	public boolean authorise(final Request<Job> request) {
 		assert request != null;
-		return true;
+
+		Principal principal = request.getPrincipal();
+		int userId = principal.getAccountId();
+
+		UserAccount ua = this.repository.findOneUserAccountById(userId);
+		Employer e = this.repository.findOneworkerByUserId(ua.getId());
+
+		return e != null;
 	}
 
 	@Override

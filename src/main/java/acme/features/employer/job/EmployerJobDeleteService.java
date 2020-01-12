@@ -22,7 +22,14 @@ public class EmployerJobDeleteService implements AbstractDeleteService<Employer,
 	public boolean authorise(final Request<Job> request) {
 		assert request != null;
 
-		return true;
+		int principalId = request.getPrincipal().getActiveRoleId();
+
+		int jobId = request.getModel().getInteger("id");
+		Job j = this.repository.findOneJobById(jobId);
+
+		boolean result;
+		result = j.getEmployer().getId() == principalId;
+		return result;
 	}
 
 	@Override
