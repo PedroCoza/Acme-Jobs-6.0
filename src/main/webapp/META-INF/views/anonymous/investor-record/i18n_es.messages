@@ -8,10 +8,10 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-authenticated.investor-record.list.label.invName = Nombre de un inversionista
-authenticated.investor-record.list.label.invSector = Sector de trabajo
-authenticated.investor-record.list.label.investingStatement = Declaración de inversión
-authenticated.investor-record.list.label.starsNumber = Número de estrellas
+anonymous.investor-record.list.label.invName = Nombre de un inversionista
+anonymous.investor-record.list.label.invSector = Sector de trabajo
+anonymous.investor-record.list.label.investingStatement = Declaración de inversión
+anonymous.investor-record.list.label.starsNumber = Número de estrellas
 
 anonymous.investor-record.form.label.invname = Nombre de un inversionista
 anonymous.investor-record.form.label.invsector = Sector de trabajo

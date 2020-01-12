@@ -24,4 +24,4 @@
 	<acme:list-column code="employer.audit-record.list.label.body" path="body" width="70%"/>
 </acme:list>
 <acme:menu-separator />
-<acme:form-return code="employer.job.form.button.return" />
+<acme:form-return code="employer.audit-record.form.button.return" />

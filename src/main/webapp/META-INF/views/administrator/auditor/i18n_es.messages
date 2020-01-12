@@ -1,10 +1,20 @@
-administrator.employer.form.label.firm = Empresa
-administrator.employer.form.label.statement = Declaración
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.auditor.form.label.firm = Empresa
+administrator.auditor.form.label.statement = Declaración
 
 administrator.auditor.list.label.firm = Empresa
 administrator.auditor.list.label.statement = Declaración
 
-administrator.employer.form.label.create = Registrar
-administrator.employer.form.label.update = Activar auditor
+administrator.auditor.form.label.create = Registrar
+administrator.auditor.form.label.update = Activar auditor
 
-administrator.employer.form.button.return = Volver
+administrator.auditor.form.button.return = Volver

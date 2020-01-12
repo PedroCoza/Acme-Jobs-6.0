@@ -24,8 +24,8 @@
 		<acme:form-textbox readonly="true" code="employer.application.form.label.oldstatus" path="oldstatus"/>
 		<acme:check-access test="${!finalMode}">
 			<acme:form-select code="employer.application.form.label.status" path="status">
-				<acme:form-option code="employer.application.form.label.draft" value="DRAFT"/>
-				<acme:form-option code="employer.application.form.label.published" value="PUBLISHED"/>
+				<acme:form-option code="employer.job.form.label.draft" value="DRAFT"/>
+				<acme:form-option code="employer.job.form.label.published" value="PUBLISHED"/>
 			</acme:form-select>
 		</acme:check-access>
 	</acme:check-access>
