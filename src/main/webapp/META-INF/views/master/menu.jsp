@@ -10,7 +10,6 @@
 - they accept any liabilities with respect to them.
 --%>
 
-<%@page language="java" import="acme.framework.helpers.PrincipalHelper,acme.entities.roles.Provider"%>
 
 <%@taglib prefix="jstl" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="tiles" uri="http://tiles.apache.org/tags-tiles"%>
@@ -55,11 +54,6 @@
 			<acme:menu-separator />
 			<acme:menu-suboption code="master.menu.administrator.auditor" action="/administrator/auditor/list" />			
 	
-		</acme:menu-option>
-
-		<acme:menu-option code="master.menu.provider" access="hasRole('Provider')">
-			<acme:menu-suboption code="master.menu.provider.favourite-link" action="http://www.example.com/"/>
-			<acme:menu-suboption code="master.menu.provider.create-request" action="/provider/request/create"/>
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.employer" access="hasRole('Employer')">
@@ -114,16 +108,11 @@
 			<acme:menu-suboption code="master.menu.user-account.employer" action="/authenticated/employer/update"
 				access="hasRole('Employer')" />
 				
-			<acme:menu-suboption code="master.menu.user-account.provider" action="/authenticated/provider/update"
-				access="hasRole('Provider')" />
 				
 			<acme:menu-suboption code="master.menu.user-account.sponsor" action="/authenticated/sponsor/update"
 				access="hasRole('Sponsor')" />
 			
 			<acme:menu-separator />
-			
-			<acme:menu-suboption code="master.menu.user-account.become-provider" action="/authenticated/provider/create"
-				access="!hasRole('Provider')" />
 	
 			
 			<acme:menu-suboption code="master.menu.user-account.become-employer" action="/authenticated/employer/create"
