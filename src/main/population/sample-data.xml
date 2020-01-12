@@ -146,20 +146,20 @@
 		<property name="administrator" ref="employer1UserAccount"/>
 		<property name="users">
 			<list>
-			<ref bean="msga1"/>
-			<ref bean="msga2"/>
-			<ref bean="msga3"/>
-			<ref bean="msga4"/>
-			<ref bean="msga5"/>
-			<ref bean="msga6"/>
+				<ref bean="msga1"/>
+				<ref bean="msga2"/>
+				<ref bean="msga3"/>
+				<ref bean="msga4"/>
+				<ref bean="msga5"/>
+				<ref bean="msga6"/>
 			</list>
 		</property>
 		<property name="message">
 			<list>
-			<ref bean="msg1"/>
-			<ref bean="msg2"/>
-			<ref bean="msg3"/>
-			<ref bean="msg4"/>
+				<ref bean="msg1"/>
+				<ref bean="msg2"/>
+				<ref bean="msg3"/>
+				<ref bean="msg4"/>
 			</list>
 		</property>
 	</bean>
@@ -170,18 +170,18 @@
 		<property name="administrator" ref="employer1UserAccount"/>
 		<property name="users">
 			<list>
-			<ref bean="msga7"/>
-			<ref bean="msga8"/>
-			<ref bean="msga9"/>
-			<ref bean="msga10"/>
-			<ref bean="msga11"/>
-			<ref bean="msga12"/>
+				<ref bean="msga7"/>
+				<ref bean="msga8"/>
+				<ref bean="msga9"/>
+				<ref bean="msga10"/>
+				<ref bean="msga11"/>
+				<ref bean="msga12"/>
 			</list>
 		</property>
 		<property name="message">
 			<list>
-			<ref bean="msg5"/>
-			<ref bean="msg6"/>
+				<ref bean="msg5"/>
+				<ref bean="msg6"/>
 			</list>
 		</property>
 	</bean>
@@ -192,18 +192,17 @@
 		<property name="administrator" ref="employer1UserAccount"/>
 		<property name="users">
 			<list>
-			<ref bean="msga13"/>
-			<ref bean="msga14"/>
-			<ref bean="msga15"/>
-			<ref bean="msga16"/>
-			<ref bean="msga17"/>
+				<ref bean="msga13"/>
+				<ref bean="msga14"/>
+				<ref bean="msga15"/>
+				<ref bean="msga16"/>
+				<ref bean="msga17"/>
 			</list>
 		</property>
 		<property name="message">
 			<list>
-			<ref bean="msg7"/>
-			<ref bean="msg8"/>
-			
+				<ref bean="msg7"/>
+				<ref bean="msg8"/>
 			</list>
 		</property>
 	</bean>
@@ -214,17 +213,17 @@
 		<property name="administrator" ref="employer2UserAccount"/>
 		<property name="users">
 			<list>
-			<ref bean="msga18"/>
-			<ref bean="msga19"/>
-			<ref bean="msga20"/>
-			<ref bean="msga21"/>
-			<ref bean="msga22"/>
+				<ref bean="msga18"/>
+				<ref bean="msga19"/>
+				<ref bean="msga20"/>
+				<ref bean="msga21"/>
+				<ref bean="msga22"/>
 			</list>
 		</property>
 		<property name="message">
 			<list>
-			<ref bean="msg9"/>
-			<ref bean="msg10"/>
+				<ref bean="msg9"/>
+				<ref bean="msg10"/>
 			</list>
 		</property>
 	</bean>
@@ -235,18 +234,18 @@
 		<property name="administrator" ref="employer3UserAccount"/>
 		<property name="users">
 			<list>
-			<ref bean="msga23"/>
-			<ref bean="msga24"/>
-			<ref bean="msga25"/>
-			<ref bean="msga26"/>
-			<ref bean="msga27"/>
-			<ref bean="msga28"/>
+				<ref bean="msga23"/>
+				<ref bean="msga24"/>
+				<ref bean="msga25"/>
+				<ref bean="msga26"/>
+				<ref bean="msga27"/>
+				<ref bean="msga28"/>
 			</list>
 		</property>
 		<property name="message">
 			<list>
-			<ref bean="msg11"/>
-			<ref bean="msg12"/>
+				<ref bean="msg11"/>
+				<ref bean="msg12"/>
 			</list>
 		</property>
 	</bean>
@@ -939,7 +938,7 @@
 		<property name="userAccount" ref="worker6UserAccount" />
 	</bean>
 	
-	<!-- Auditor 1 -->
+	<!-- Auditors -->
 	<bean name="auditor1UserAccount" class="acme.framework.entities.UserAccount">
 		<property name="username" value="auditor1" />
 		<property name="password" value="auditor1" />
@@ -969,7 +968,6 @@
 		<property name="userAccount" ref="auditor1UserAccount" />
 	</bean>
 	
-	<!-- Auditor 2 -->
 	<bean name="auditor2UserAccount" class="acme.framework.entities.UserAccount">
 		<property name="username" value="auditor2" />
 		<property name="password" value="auditor2" />
@@ -1010,14 +1008,14 @@
 		<property name="moreInfo" value="https://www.example.com"/>
 		<property name="application">
 			<list>
-			<ref bean="application1"/>
+				<ref bean="application1"/>
 			</list>
 		</property>
 		<property name="descriptor" ref ="descriptor1" />
 		<property name="employer" ref="employer1Employer"/>
 		<property name="auditRecord">
 			<list>
-			<ref bean="auditRecord1"/>
+				<ref bean="auditRecord1"/>
 			</list>
 		</property>
 	</bean>
@@ -1034,12 +1032,12 @@
 		<property name="employer" ref="employer1Employer"/>
 		<property name="application">
 			<list>
-			<ref bean="application2"/>
+				<ref bean="application2"/>
 			</list>
 		</property>
 		<property name="auditRecord">
 			<list>
-			<ref bean="auditRecord2"/>
+				<ref bean="auditRecord2"/>
 			</list>
 		</property>
 	</bean>
@@ -1056,13 +1054,13 @@
 		<property name="employer" ref="employer3Employer"/>
 		<property name="application">
 			<list>
-			<ref bean="application3"/>
-			<ref bean="application4"/>
+				<ref bean="application3"/>
+				<ref bean="application4"/>
 			</list>
 		</property>
 		<property name="auditRecord">
 			<list>
-			<ref bean="auditRecord3"/>
+				<ref bean="auditRecord3"/>
 			</list>
 		</property>
 	</bean>
@@ -1079,12 +1077,12 @@
 		<property name="employer" ref="employer4Employer"/>
 		<property name="application">
 			<list>
-			<ref bean="application5"/>
+				<ref bean="application5"/>
 			</list>
 		</property>
 		<property name="auditRecord">
 			<list>
-			<ref bean="auditRecord4"/>
+				<ref bean="auditRecord4"/>
 			</list>
 		</property>
 	</bean>
@@ -1101,12 +1099,12 @@
 		<property name="employer" ref="employer5Employer"/>
 		<property name="application">
 			<list>
-			<ref bean="application6"/>
+				<ref bean="application6"/>
 			</list>
 		</property>
 		<property name="auditRecord">
 			<list>
-			<ref bean="auditRecord5"/>			
+				<ref bean="auditRecord5"/>			
 			</list>
 		</property>
 	</bean>
@@ -1123,12 +1121,12 @@
 		<property name="employer" ref="employer5Employer"/>
 		<property name="application">
 			<list>
-			<ref bean="application7"/>
+				<ref bean="application7"/>
 			</list>
 		</property>
 		<property name="auditRecord">
 			<list>
-			<ref bean="auditRecord6"/>
+				<ref bean="auditRecord6"/>
 			</list>
 		</property>
 	</bean>
@@ -1145,12 +1143,12 @@
 		<property name="employer" ref="employer2Employer"/>
 		<property name="application">
 			<list>
-			<ref bean="application8"/>
+				<ref bean="application8"/>
 			</list>
 		</property>
 		<property name="auditRecord">
 			<list>
-			<ref bean="auditRecord7"/>
+				<ref bean="auditRecord7"/>
 			</list>
 		</property>
 	</bean>
@@ -1843,7 +1841,6 @@
 		<property name="incorporated" value="TRUE" />
 		<property name="stars" value="5" />
 	</bean>
-
 
 	<!-- Requests -->
 	<bean id="request01" class="acme.entities.requests.Request">
