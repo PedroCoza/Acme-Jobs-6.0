@@ -36,14 +36,6 @@ master.menu.anonymous.investor-record.list = Lista de registros de inversores
 master.menu.anonymous.investor-record.topcompanyrecords = Lista de registros de compañías Top
 master.menu.anonymous.investor-record.topinvestorrecords = Lista de registros de inversores Top
 
-# master.menu.banners ###################################################
-master.menu.banners = Pancartas
-master.menu.administrator.create-non-commercial = Crea una pancarta no comercial
-master.menu.administrator.list-non-commercial = Lista de pancartas no comerciales
-master.menu.administrator.create-commercial = Crea una pancarta comercial
-master.menu.administrator.list-commercial = Lista de pancartas comerciales
-
-
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrador
@@ -61,14 +53,6 @@ master.menu.administrator.investor-record = Registros de Inversor
 master.menu.administrator.createinvestorrecord = Crear Registro de Inversor
 master.menu.administrator.spamlist = Parámetros de Customización
 master.menu.administrator.auditor = Auditores por confirmar
-
-
-
-# master.menu.provider ########################################################
-
-master.menu.provider = Proveedor
-master.menu.provider.favourite-link = Enlace favorito
-master.menu.provider.create-request = Crear petición
 
 # master.menu.employer ####################################################
 

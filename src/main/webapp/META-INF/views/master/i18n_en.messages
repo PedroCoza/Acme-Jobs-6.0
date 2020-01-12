@@ -36,13 +36,6 @@ master.menu.anonymous.investor-record.list = Investor Records list
 master.menu.anonymous.investor-record.topcompanyrecords = Top Company Records list
 master.menu.anonymous.investor-record.topinvestorrecords = Top Investor Records list
 
-# master.menu.banners ###################################################
-master.menu.banners = Banners
-master.menu.administrator.create-non-commercial = Create a Non Commercial Banner
-master.menu.administrator.list-non-commercial = Non Commercial Banner List
-master.menu.administrator.create-commercial = Create a Commercial Banner
-master.menu.administrator.list-commercial = Commercial Banners List
-
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrator
@@ -63,12 +56,6 @@ master.menu.administrator.createinvestorrecord = Create Investor Record
 master.menu.administrator.spamlist = Customisation Parameters
 master.menu.administrator.auditor = Pending auditors
 
-
-# master.menu.provider ########################################################
-
-master.menu.provider = Provider
-master.menu.provider.favourite-link = Favourite link
-master.menu.provider.create-request = Create request
 
 # master.menu.employer ####################################################
 

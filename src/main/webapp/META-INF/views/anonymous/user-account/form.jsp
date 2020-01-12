@@ -22,7 +22,9 @@
 	
 	<acme:form-textbox code="anonymous.user-account.label.name" path="identity.name"/>
 	<acme:form-textbox code="anonymous.user-account.label.surname" path="identity.surname"/>
-	<acme:form-textbox code="anonymous.user-account.label.email" path="identity.email"/>
+	<acme:form-textbox code="anonymous.user-account.label.email" placeholder="acme@acme.com" path="identity.email"/>
+	<acme:form-textbox code="anonymous.user-account.label.phone" placeholder="+CC (AC) N" path="identity.phone"/>
+	<acme:message code="anonymous.user-account.label.phoneinst"/> 
 	 
 	<acme:form-checkbox code="anonymous.user-account.label.accept" path="accept"/>
 	

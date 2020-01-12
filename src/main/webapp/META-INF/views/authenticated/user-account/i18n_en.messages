@@ -21,6 +21,8 @@ authenticated.user-account.form.label.confirmation = Confirmation:
 authenticated.user-account.form.label.name = Name:
 authenticated.user-account.form.label.surname = Surname:
 authenticated.user-account.form.label.email = Email:
+authenticated.user-account.form.label.phone = Phone:
+authenticated.user-account.form.label.phoneinst = Phones is not required. Local area code (AC) is optional, introduce only if necessary.
  
 authenticated.user-account.form.button.update = Update
 authenticated.user-account.form.button.return = Return

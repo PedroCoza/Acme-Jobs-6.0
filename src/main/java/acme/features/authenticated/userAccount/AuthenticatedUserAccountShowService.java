@@ -30,7 +30,7 @@ public class AuthenticatedUserAccountShowService implements AbstractShowService<
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "username", "identity.name", "identity.surname", "identity.email");
+		request.unbind(entity, model, "username", "identity.name", "identity.surname", "identity.email", "identity.phone");
 	}
 
 	@Override
