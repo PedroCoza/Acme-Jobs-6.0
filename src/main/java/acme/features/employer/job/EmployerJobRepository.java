@@ -14,6 +14,7 @@ import acme.entities.duty.Duty;
 import acme.entities.job.Job;
 import acme.entities.roles.Employer;
 import acme.entities.spamlist.Spamlist;
+import acme.framework.entities.UserAccount;
 import acme.framework.repositories.AbstractRepository;
 
 @Repository
@@ -52,5 +53,11 @@ public interface EmployerJobRepository extends AbstractRepository {
 
 	@Query("select s from Spamlist s where s.idiom = ?1")
 	Spamlist findSpamLists(String idiom);
+
+	@Query("select e from Employer e where e.userAccount.id = ?1")
+	Employer findOneEmployerByUserId(int id);
+
+	@Query("select ua from UserAccount ua where ua.id = ?1")
+	UserAccount findOneUserAccountById(int id);
 
 }

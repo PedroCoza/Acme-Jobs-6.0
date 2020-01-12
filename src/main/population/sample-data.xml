@@ -1652,6 +1652,14 @@
 		<property name="card" ref="card03"/>	
 		<property name="sponsor" ref="sponsor3Sponsor"/>	
 	</bean>
+	
+	<bean id="banner08" class="acme.entities.commercial.Commercial">
+		<property name="banner" value="https://www.aa.org/content-files/images/sp/sp_web_banners_3x3.jpg" />
+		<property name="slogan" value="Life is about small things." />
+		<property name="url" value="https://www.pinterest.com" />
+		<property name="card" ref="card03"/>	
+		<property name="sponsor" ref="sponsor3Sponsor"/>	
+	</bean>
 
 	<!-- Challenge -->
 	<bean id="challenge01" class="acme.entities.challenge.Challenge">
