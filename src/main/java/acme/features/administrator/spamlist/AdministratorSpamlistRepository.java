@@ -9,10 +9,14 @@ import org.springframework.stereotype.Repository;
 
 import acme.entities.spamlist.Spamlist;
 import acme.entities.spamword.Spamword;
+import acme.framework.entities.Administrator;
 import acme.framework.repositories.AbstractRepository;
 
 @Repository
 public interface AdministratorSpamlistRepository extends AbstractRepository {
+
+	@Query("select a from Administrator a where a.id = ?1")
+	Administrator findOneAdministratorById(int id);
 
 	@Query("select a from Spamlist a")
 	Collection<Spamlist> findManyAll();

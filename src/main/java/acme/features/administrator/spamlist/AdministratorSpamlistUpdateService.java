@@ -25,7 +25,11 @@ public class AdministratorSpamlistUpdateService implements AbstractUpdateService
 	public boolean authorise(final Request<Spamlist> request) {
 		assert request != null;
 
-		return true;
+		Integer id = request.getPrincipal().getActiveRoleId();
+
+		Administrator a = this.repository.findOneAdministratorById(id);
+
+		return a != null;
 	}
 
 	@Override
