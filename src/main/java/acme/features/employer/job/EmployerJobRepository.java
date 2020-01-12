@@ -55,7 +55,7 @@ public interface EmployerJobRepository extends AbstractRepository {
 	Spamlist findSpamLists(String idiom);
 
 	@Query("select e from Employer e where e.userAccount.id = ?1")
-	Employer findOneworkerByUserId(int id);
+	Employer findOneEmployerByUserId(int id);
 
 	@Query("select ua from UserAccount ua where ua.id = ?1")
 	UserAccount findOneUserAccountById(int id);

@@ -33,7 +33,7 @@ public class EmployerJobCreateService implements AbstractCreateService<Employer,
 		int userId = principal.getAccountId();
 
 		UserAccount ua = this.repository.findOneUserAccountById(userId);
-		Employer e = this.repository.findOneworkerByUserId(ua.getId());
+		Employer e = this.repository.findOneEmployerByUserId(ua.getId());
 
 		return e != null;
 	}
