@@ -83,10 +83,6 @@
        drop 
        foreign key `FKqo73ln7f61vbg9r4a06esfujd`;
 
-    alter table `provider` 
-       drop 
-       foreign key FK_b1gwnjqm6ggy9yuiqm0o4rlmd;
-
     alter table `spamword` 
        drop 
        foreign key `FKrk7poykhk0ukf2dm6oqv3rejm`;
@@ -144,8 +140,6 @@
     drop table if exists `non_commercial`;
 
     drop table if exists `offer`;
-
-    drop table if exists `provider`;
 
     drop table if exists `request`;
 

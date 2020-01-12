@@ -41,10 +41,11 @@ public class PhoneFormatter implements Formatter<Phone> {
 		Matcher matcher;
 		String errorMessage;
 		String countryCodeText;
-		int countryCode;
+		//int countryCode;
 		String areaCode, number;
 
-		countryCodeRegex = "\\+\\d{1,3}";
+		//countryCodeRegex = "\\+\\d{1,}";
+		countryCodeRegex = "^([+]{1})([0]{0,}?[1-9]{1,3})$";
 		areaCodeRegex = "\\d{1,6}";
 		numberRegex = "\\d{1,9}([\\s-]\\d{1,9}){0,5}";
 		phoneRegex = String.format( //
@@ -62,12 +63,12 @@ public class PhoneFormatter implements Formatter<Phone> {
 			throw new ParseException(errorMessage, 0);
 		} else {
 			countryCodeText = matcher.group("CC");
-			countryCode = Integer.valueOf(countryCodeText);
+			//countryCode = Integer.valueOf(countryCodeText);
 			areaCode = matcher.group("AC");
 			number = matcher.group("N");
 
 			result = new Phone();
-			result.setCountryCode(countryCode);
+			result.setCountryCode(countryCodeText);
 			result.setAreaCode(areaCode);
 			result.setNumber(number);
 		}
