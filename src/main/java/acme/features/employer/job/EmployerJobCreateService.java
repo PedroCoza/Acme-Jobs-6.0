@@ -79,6 +79,9 @@ public class EmployerJobCreateService implements AbstractCreateService<Employer,
 		assert entity != null;
 		assert errors != null;
 
+		Boolean isUnique = this.repository.findJobByRef(request.getModel().getString("reference")) == null;
+		errors.state(request, isUnique, "reference", "acme.errors.reference");
+
 		String deadlineString = request.getModel().getString("deadline");
 
 		Boolean aux = deadlineString.matches("[0-9]{4}/[0-9]{2}/[0-9]{2} [0-9]{2}:[0-9]{2}");

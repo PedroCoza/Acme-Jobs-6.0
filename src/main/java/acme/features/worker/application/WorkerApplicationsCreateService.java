@@ -105,6 +105,9 @@ public class WorkerApplicationsCreateService implements AbstractCreateService<Wo
 		assert entity != null;
 		assert errors != null;
 
+		Boolean isUnique = this.repository.findAppByRef(request.getModel().getString("ref")) == null;
+		errors.state(request, isUnique, "ref", "acme.error.uniqueref");
+
 	}
 
 	@Override

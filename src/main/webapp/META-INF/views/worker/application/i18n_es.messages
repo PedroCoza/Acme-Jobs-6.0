@@ -22,4 +22,6 @@ worker.application.list.label.creationmoment = Momento de Creacion
 worker.application.list.label.status = Estado
 worker.application.form.button.create = Crear
 
+acme.error.uniqueref = Este número de referencia ya existe, por favor use otro
+
 worker.application.form.button.return = Volver

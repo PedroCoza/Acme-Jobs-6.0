@@ -60,4 +60,7 @@ public interface EmployerJobRepository extends AbstractRepository {
 	@Query("select ua from UserAccount ua where ua.id = ?1")
 	UserAccount findOneUserAccountById(int id);
 
+	@Query("select j from Job j where j.reference = ?1")
+	Job findJobByRef(String ref);
+
 }
