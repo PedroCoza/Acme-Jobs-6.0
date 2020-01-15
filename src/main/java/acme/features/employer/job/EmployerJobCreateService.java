@@ -2,6 +2,7 @@
 package acme.features.employer.job;
 
 import java.util.Collection;
+import java.util.Date;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -77,6 +78,25 @@ public class EmployerJobCreateService implements AbstractCreateService<Employer,
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
+
+		String deadlineString = request.getModel().getString("deadline");
+
+		Boolean aux = deadlineString.matches("[0-9]{4}/[0-9]{2}/[0-9]{2} [0-9]{2}:[0-9]{2}");
+
+		if (errors.hasErrors("deadline")) {
+			errors.state(request, aux, "deadline", "employer.job.deadline.placeholder");
+		}
+
+		Date deadline = java.util.Calendar.getInstance().getTime();
+
+		if (aux) {
+			deadline = request.getModel().getDate("deadline");
+		}
+		Date now = java.util.Calendar.getInstance().getTime();
+
+		if (!errors.hasErrors("deadline")) {
+			errors.state(request, deadline.after(now), "deadline", "employer.job.deadline.past");
+		}
 
 		Boolean isSpamEN, isSpamES;
 		String reallyBigString;
