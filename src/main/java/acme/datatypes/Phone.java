@@ -23,14 +23,14 @@ public class Phone extends DomainDatatype {
 	private static final long	serialVersionUID	= 1L;
 
 	@NotNull
-	@Range(min = 1, max = 999)
+	@Range(min = 1, max = 999, message = "default.error.conversion")
 	private Integer				countryCode;
 
 	@Pattern(regexp = "\\d{1,6}", message = "default.error.conversion")
 	private String				areaCode;
 
 	@NotBlank
-	@Pattern(regexp = "\\d{1,9}([\\s-]\\d{1,9}){0,5}", message = "default.error.conversion")
+	@Pattern(regexp = "\\d{1,9}([\\s-]\\d{1,9}){0,4}", message = "default.error.conversion")
 	private String				number;
 
 

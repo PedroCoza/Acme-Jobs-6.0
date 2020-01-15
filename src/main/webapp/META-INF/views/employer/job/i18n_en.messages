@@ -24,6 +24,7 @@ employer.job.form.label.published = PUBLISHED
 
 employer.job.descriptor.blank = Must not be blank
 employer.job.status = To change the Job to Published status it must have descriptor and the 100% of the duties percentage
+employer.job.deadline.past = Deadline must be in future
 
 employer.job.descriptor = <h4>Descriptor:</h4>
 employer.job.form.label.description = Description
