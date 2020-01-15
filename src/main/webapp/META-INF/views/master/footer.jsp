@@ -43,7 +43,7 @@
 <%@ page import='acme.entities.banner.Banner' %>
 
 <%
-	Banner banner = (Banner) request.getAttribute("banner1");
+	Banner banner = (Banner) request.getAttribute("bannerAdvisor");
 	String imageUrl = banner.getBanner();
 %>
 

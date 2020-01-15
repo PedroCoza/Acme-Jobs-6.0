@@ -14,7 +14,7 @@ public class BannerAdvisor {
 	private BannerRepository repository;
 
 
-	@ModelAttribute("banner1")
+	@ModelAttribute("bannerAdvisor")
 	public Banner getBanner() {
 		Banner result;
 

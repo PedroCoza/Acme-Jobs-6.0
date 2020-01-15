@@ -29,5 +29,4 @@ public interface AuthenticatedMessageRepository extends AbstractRepository {
 
 	@Query("select mt from MessageThreadAuthenticated mt where mt.user.id = ?1 and mt.thread.id = ?2")
 	MessageThreadAuthenticated findAuthentication(int id, int threadId);
-
 }
