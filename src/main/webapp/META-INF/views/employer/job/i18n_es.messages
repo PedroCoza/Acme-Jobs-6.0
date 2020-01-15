@@ -42,3 +42,6 @@ acme.validation.yesapps = No se puede borrar un trabajo con solicitudes dependie
 acme.validation.spam = Le pedimos que deje de sobrecargar el sistema con trabajos falsos y engañosos, gracias
 
 employer.job.form.button.create-duty = Crear Tarea
+
+employer.job.deadline.placeholder = La fecha de finalización no está en la forma correcta
+employer.job.deadline.past = La fecha de finalización debe estar en el futuro

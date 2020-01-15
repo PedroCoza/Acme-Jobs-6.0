@@ -79,10 +79,23 @@ public class EmployerJobCreateService implements AbstractCreateService<Employer,
 		assert entity != null;
 		assert errors != null;
 
-		Date deadline = request.getModel().getDate("deadline");
+		String deadlineString = request.getModel().getString("deadline");
+
+		Boolean aux = deadlineString.matches("[0-9]{4}/[0-9]{2}/[0-9]{2} [0-9]{2}:[0-9]{2}");
+
+		if (errors.hasErrors("deadline")) {
+			errors.state(request, aux, "deadline", "employer.job.deadline.placeholder");
+		}
+
+		Date deadline = java.util.Calendar.getInstance().getTime();
+
+		if (aux) {
+			deadline = request.getModel().getDate("deadline");
+		}
 		Date now = java.util.Calendar.getInstance().getTime();
-		if (!errors.hasErrors()) {
-			errors.state(request, deadline.after(now), "reference", "employer.job.deadline.past");
+
+		if (!errors.hasErrors("deadline")) {
+			errors.state(request, deadline.after(now), "deadline", "employer.job.deadline.past");
 		}
 
 		Boolean isSpamEN, isSpamES;
